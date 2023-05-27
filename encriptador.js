@@ -39,6 +39,8 @@ function encriptar(){
         tituloMensaje.textContent="Ningun mensaje fue encontrado"
         alert("Debes escribir alguna palabra");
         copy.style.display = "none"
+         textA.style.display = "none"
+        draw.style.display = "flex"
     }
     return textoCifrado
 }
@@ -77,6 +79,8 @@ function encriptar(){
             parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar";
             alert("Ooops!", "Debes ingresar un texto", "warning");
             copy.style.display = "none"
+               textA.style.display = "none"
+        draw.style.display = "flex"
           }
           return textoCifrado
         }

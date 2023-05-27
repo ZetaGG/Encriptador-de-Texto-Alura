@@ -35,7 +35,7 @@ function encriptar(){
     }
 
     else{
-        draw.src="/Portafolio/Img encript/Vaporeon Confundido.png";
+        draw.src="Img encript/Vaporeon Confundido.png";
         tituloMensaje.textContent="Ningun mensaje fue encontrado"
         alert("Debes escribir alguna palabra");
         copy.style.display = "none"
@@ -72,7 +72,7 @@ function encriptar(){
             textA.style.display = "flex"
             tituloMensaje.textContent = "";
           } else {
-            draw.src = "/Portafolio/Img encript/Vaporeon Confundido.png";
+            draw.src = "Img encript/Vaporeon Confundido.png";
             tituloMensaje.textContent = "Ningún mensaje fue encontrado";
             parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar";
             alert("Ooops!", "Debes ingresar un texto", "warning");

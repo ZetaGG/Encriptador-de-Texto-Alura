@@ -7,7 +7,7 @@
     position: relative;
     width: 100vw;
     height: 100vh;
-    background-image: url("/Portafolio/Img encript/Fondo\ pokemon.jpg");
+    background-image: url("Img encript/Fondo\ pokemon.jpg");
  }
 
  .texto{
